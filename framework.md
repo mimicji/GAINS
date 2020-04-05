@@ -1,8 +1,11 @@
 # Binary analysis frameworks
 ## Table of contents
+- [SoK papers](#sok-papers)
 - [Projects](#projects)
 - [Simulation](#simulation)
 - [Dynamic Binary Instrumentation](#dynamic-binary-instrumentation)
+## SoK papers
+- Shoshitaishvili, Yan, et al. "[Sok:(state of) the art of war: Offensive techniques in binary analysis.](https://sefcom.asu.edu/publications/sok-the-art-of-war-offensive-techniques-in-binary-analysis-oakland2016.pdf)" _2016 IEEE Symposium on Security and Privacy (SP)_. IEEE, 2016.
 ## Projects
 The following projects may contain a number of papers and tools. Thier tools and papers might be included in other pages in this repo. Here we only list the projects and selected papers.
 - [BitBlaze](http://bitblaze.cs.berkeley.edu/): Binary Analysis for Computer Security

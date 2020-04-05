@@ -5,6 +5,8 @@
 	- [Disassemblers](#disassemblers)
 	- [Assemblers](#assemblers)
 	- [Decompilers](#decompilers)
+	- [Debuggers](#debuggers)
+		- [Memory Debuggers](#memory-debuggers)
 ## Guide
 - Andriesse, Dennis, et al. "[An in-depth analysis of disassembly on full-scale x86/x64 binaries.](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_andriesse.pdf)" _25th USENIX Security Symposium (USENIX Security 16)_. 2016.
 ## Tools
@@ -27,5 +29,11 @@
 - [Hex-Rays Decompiler](http://www.hex-rays.com/products/decompiler/index.shtml)
 - [Ghidra](https://ghidra-sre.org/)
 - [Hopper](http://www.hopperapp.com/)
-
-
+### Debuggers
+- [GNU Debugger](https://www.gnu.org/software/gdb/)
+- [OllyDbg](http://www.ollydbg.de/)
+- [LLDB](https://lldb.llvm.org/)
+#### Memory Debuggers
+- [AddressSanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer)
+- [Valgrind Memcheck](https://valgrind.org/)
+- [DynamoRIO Dr. Memory](https://github.com/DynamoRIO/drmemory)
