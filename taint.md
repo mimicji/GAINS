@@ -34,7 +34,7 @@
 ## Static Taint Analysis
 - Wang, Xinran, et al. "[Still: Exploit code detection via static taint and initialization analyses.](http://www.cse.psu.edu/~sxz16/papers/still.pdf)" _2008 Annual Computer Security Applications Conference (ACSAC)_. IEEE, 2008.
 - Biondi, Philippe, et al. "[BinCAT: purrfecting binary static analysis.](https://www.sstic.org/media/SSTIC2017/SSTIC-actes/bincat_purrfecting_binary_static_analysis/SSTIC2017-Article-bincat_purrfecting_binary_static_analysis-biondi_rigo_zennou_mehrenberger.pdf)" _Symposium sur la sécurité des technologies de l’information et des communications_. 2017.
-### Taint Policy
+## Taint Policy
 - Xu, Wei, Sandeep Bhatkar, and Ramachandran Sekar. "[Taint-Enhanced Policy Enforcement: A Practical Approach to Defeat a Wide Range of Attacks.](https://www.usenix.org/event/sec06/tech/full_papers/xu/xu_html/)" _USENIX Security Symposium_. 2006.
 ## Taint Rule
 - `TaintInduce` Chua, Zheng Leong, et al. "[One Engine To Serve'em All: Inferring Taint Rules Without Architectural Semantics.](https://pdfs.semanticscholar.org/2f04/e6bc5bbf2df6d0df15593f2e648681591173.pdf)" _NDSS_. 2019.
