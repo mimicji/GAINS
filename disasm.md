@@ -1,4 +1,4 @@
-# Disassembly, Assembly and Decompilation
+# Disassembly, Assembly, Decompilation and Debugging
 ## Table of contents
 - [Guide](#guide)
 - [Tools](#tools)
