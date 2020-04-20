@@ -98,7 +98,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Omega-Log: High-fidelity attack investigation via transparent multi-layer log analysis. Hassan, Wajih Ul, et al. NDSS'2020
 - Combating Dependence Explosion in Forensic Analysis Using Alternative Tag Propagation Semantics. M. N. Hossain, et al. SP'2020
 
-## Behavior Query
+## Query
 - Behavior query discovery in system-generated temporal graphs. B. Zong, et al. VLDB'2015
 - AIQL: Enabling efficient attack investigation from system monitoring data. P.Gao, et al. ATC'2018
 - SAQL: A stream-based query system for real-time abnormal system behavior detection. P.Gao, et al. Security'2018
