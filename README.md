@@ -19,3 +19,4 @@ Enjoy!
 - Automatic Exploit Generation & Program Repair
 - Firmware Analysis
 - Trusted Computing
+- [Audit log analysis](auditlog.md)
