@@ -107,7 +107,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Graalf: Supporting graphical analysis of audit logs for forensics. O. Setayeshfar, et al. arXiv'2019
 - Poirot: Aligning attack behavior with kernel audit records for cyber threat hunting. S. M Milajerdi. CCS'2019
 
-### Integrity
+## Integrity
 - Forward integrity for secure audit logs. M. Bellare and B. Yee. Tech. Rep. 1997
 - A new approach to secure logging. D. Ma and G. Tsudik. TOS'2009
 - Efficient data structures for tamper-evident logging. S. A. Crosby and D. S. Wallach. Security'2009
