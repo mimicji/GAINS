@@ -43,6 +43,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Trustworthy whole-system provenance for the linux kernel. A. Bates. et al. Security'2015
 - Transparent Web Service Auditing via Network Provenance Functions. A. Bates, et al. WWW'2017
 - Fear and logging in the internet of things. Q. Wang, et al. NDSS'2018
+- Kernel-Supported Cost-Effective Audit Logging for Causality Tracking。 S. Ma, et al. ATC'2018
 
 ## SIEM
 #### Forensic Analysis
