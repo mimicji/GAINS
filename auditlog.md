@@ -10,6 +10,7 @@
 	- [Dependency Explosion](#dependency-explosion)
 - [Query](#query)
 - [Integrity](#integrity)
+- [Survey](#survey)
 
 ## Definition
 Every event in audit logs represents an OS-level system activity such as process creation, file access, and network connection. Here, we use read and execve activities as examples to illustrate log events.
@@ -118,3 +119,5 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Practical and robust secure logging from fault-tolerant sequential aggregate signatures. G. Hartung, et al. ProvSec'2017
 - Custos: Practical tamper-evident auditing of operating systems using trusted execution. Paccagnella, Riccardo, et al. NDSS'2020
 
+## Survey
+- Threat Detection and Investigation with System-level Provenance Graphs: A Survey. Zhenyuan, et al. arxiv'2020
