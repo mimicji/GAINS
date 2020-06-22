@@ -48,7 +48,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 
 ## SIEM
 #### Forensic Analysis
-- Backtracking intrusions. King, et al. ASPLOS'2003
+- Backtracking intrusions. King, et al. SOSP'2003
 - Enriching intrusion alerts through multi-host causality. S. T. King, et al. NDSS'2005
 - The taser intrusion recovery system. A. Goel, et al. ASPLOS'2005
 - Provenance-aware tracing ofworm break-in and contaminations: A process coloring approach. X. Jiang et al. ICDCS'2006
