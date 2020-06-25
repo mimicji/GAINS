@@ -1,6 +1,7 @@
 # Audit Log Analysis
 ## Table of contents
 - [Definition](#definition)
+- [Survey](#survey)
 - [Generation](#generation)
 - [SIEM](#siem)
 	- [Forensic Analysis](#forensic-analysis)
@@ -10,7 +11,9 @@
 	- [Dependency Explosion](#dependency-explosion)
 - [Query](#query)
 - [Integrity](#integrity)
-- [Survey](#survey)
+
+## Survey
+- Threat Detection and Investigation with System-level Provenance Graphs: A Survey. Zhenyuan, et al. arxiv'2020
 
 ## Definition
 Every event in audit logs represents an OS-level system activity such as process creation, file access, and network connection. Here, we use read and execve activities as examples to illustrate log events.
@@ -36,12 +39,12 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 
 #### Literature
 - Forensix: A robust, high-performance reconstruction system, A. Goel, et al. Distributed computing systems workshops 2005
-- Provenance-aware storage systems. K. Muniswamy-Reddy, et al. ATC'2006
+- PASS: Provenance-aware storage systems. K. Muniswamy-Reddy, et al. ATC'2006
 - Layering in provenance systems. K.-K. Muniswamy-Reddy, et al. Security'2009
 - Trail of bytes: efficient support for forensic analysis. S. Krishnan, K. Z. Snow, and F. Monrose. CCS'2010
 - Hi-fi: collecting high-fidelity whole-system provenance. D. J. Pohly, et al. CCS'2012
 - Spade: support for provenance auditing in distributed environments. A. Gehani and D. Tariq. International Middleware Conference 2012
-- Trustworthy whole-system provenance for the linux kernel. A. Bates. et al. Security'2015
+- LPM: Trustworthy whole-system provenance for the linux kernel. A. Bates. et al. Security'2015
 - Transparent Web Service Auditing via Network Provenance Functions. A. Bates, et al. WWW'2017
 - Fear and logging in the internet of things. Q. Wang, et al. NDSS'2018
 - Kernel-Supported Cost-Effective Audit Logging for Causality Tracking。 S. Ma, et al. ATC'2018
@@ -54,6 +57,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Provenance-aware tracing ofworm break-in and contaminations: A process coloring approach. X. Jiang et al. ICDCS'2006
 - Intrusion recovery using selective re-execution. T. Kim, et al. OSDI'2010
 - Integrating ids alert correlation and os-level dependency tracking. Y. Zhai, et al. Intelligence and Security Informatics 2016
+- CamFlow: Practical whole-system provenance capture. Pasquier, et al. Cloud Computing 2017
 - SLEUTH: Real-time attack scenario reconstruction from COTS audit data. M. N. Hossain, et al. Security'2017
 - Towards a timely causality analysis for enterprise security. Y. Liu, et al. NDSS'2018
 - LPROV: Practical Library-aware Provenance Tracing. F. Wang, et al. ACSAC'2018
@@ -84,6 +88,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Towards scalable cluster auditing through grammatical inference over provenance graphs. W. U. Hassan, et al. NDSS'2018
 - Dependence-preserving data compaction for scalable forensic analysis. M. N. Hossain, et al. Security'2018
 - NodeMerge: Template Based Efficient Data Reduction For Big-Data Causality Analysis. Y. Tang, et al. CCS'2018
+- APTrace: A Responsive System for Agile Enterprise Level Causality Analysis. Gui, et, al. ICDE'2020
 
 #### Dependency Explosion
 - Forensic analysis of file system intrusions using improved backtracking, S. Sitaraman and S. Venkatesan. IWIA'2005
@@ -119,5 +124,3 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Practical and robust secure logging from fault-tolerant sequential aggregate signatures. G. Hartung, et al. ProvSec'2017
 - Custos: Practical tamper-evident auditing of operating systems using trusted execution. Paccagnella, Riccardo, et al. NDSS'2020
 
-## Survey
-- Threat Detection and Investigation with System-level Provenance Graphs: A Survey. Zhenyuan, et al. arxiv'2020
