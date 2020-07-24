@@ -5,6 +5,7 @@
 	- [Efficiency](#efficiency)
 		- [Common](#common)
 		- [Commodity Hardware](#commodity-hardware)
+		- [Neural Network](#neural-network)
 	- [Offline Tainting](#offline-tainting)
 - [Static Taint Analysis](#static-taint-analysis)
 - [Taint Policy](#taint-policy)
