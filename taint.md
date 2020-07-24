@@ -29,6 +29,8 @@
 - `Speck` Nightingale, Edmund B., et al. "[Parallelizing security checks on commodity hardware.](https://dl.acm.org/doi/pdf/10.1145/1353534.1346321)" _ACM SIGARCH Computer Architecture News_ 36.1 (2008): 308-318.
 - Zhu, David, et al. "[TaintEraser: Protecting sensitive data leaks using application-level taint tracking.](https://dl.acm.org/doi/pdf/10.1145/1945023.1945039)" _ACM SIGOPS Operating Systems Review_ 45.1 (2011): 142-154.
 - Jee, Kangkook, et al. "[A General Approach for Efficiently Accelerating Software-based Dynamic Data Flow Tracking on Commodity Hardware.](https://angelosk.github.io/Papers/2012/dta.pdf)" _NDSS_. 2012.Offline Tainting
+#### Neural Network
+- She, Dongdong, et al. "[Neutaint: Efficient Dynamic Taint Analysis with Neural Networks.](https://arxiv.org/pdf/1907.03756.pdf)" _2020 IEEE Symposium on Security and Privacy (SP)_. IEEE, 2020.
 ## Offline Tainting
 - Ming, Jiang, et al. "[Straighttaint: Decoupled offline symbolic taint analysis.](https://dl.acm.org/doi/pdf/10.1145/2970276.2970299)" _2016 31st IEEE/ACM International Conference on Automated Software Engineering (ASE)_. IEEE, 2016.
 ## Static Taint Analysis
