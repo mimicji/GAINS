@@ -21,8 +21,8 @@ This approach has the main drawback that it requires to emulate the device prope
 ## Emulate OS-based (Linux-based) Device
 ### Hybrid Emulation Approach
 1. Zaddach, Jonas, et al. "**AVATAR**: A Framework to Support Dynamic Security Analysis of Embedded Systems' Firmwares." NDSS. Vol. 14. 2014.
-Hybrid way: emulator with hardware
-Other methods: complete hardware emulation, hardware over-approximation, firmware adaption  
+	- Hybrid way: emulator with hardware
+	- Other methods: complete hardware emulation, hardware over-approximation, firmware adaption  
 
 2. Talebi, Seyed Mohammadjavad Seyed, et al. "**Charm**: Facilitating dynamic analysis of device drivers of mobile systems." 27th {USENIX} Security Symposium ({USENIX} Security 18). 2018.
 - Decouples the execution of the device driver from the mobile system hardware. Enable the device driver to run in a virtual machine on a different physical machine
