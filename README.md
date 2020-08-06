@@ -17,6 +17,6 @@ Enjoy!
 	- Mutation
 	- Coverage
 - Automatic Exploit Generation & Program Repair
-- [Firmware Analysis](firmware.md)
+- [IoT Emulation](emulation.md)
 - Trusted Computing
 - [Audit log analysis](auditlog.md)
