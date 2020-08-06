@@ -57,7 +57,7 @@ This approach has the main drawback that it requires to emulate the device prope
 	- Combines user-mode emulation and system-mode emulation to fuzz the firmware. Enter the user-mode (host machine kernel) when encountering predefined fuzzing points
 	- Based on the Firmadyne to emulate the firmware and AFL to fuzz
 
-5. Song, Dokyung, et al. "Periscope: An effective probing and fuzzing framework for the hardware-os boundary." NDSS. 2019.
+5. Song, Dokyung, et al. "**Periscope**: An effective probing and fuzzing framework for the hardware-os boundary." NDSS. 2019.
 	- Passively monitor and log traffic between device drivers and their corresponding hardware, or mutate the data stream on-the-fly using a fuzzing component, PERIFUZZ, thus mimicking an active adversarial attack.
 
 ## Emulate non-Linux-based (bare-metal) IoT device
@@ -69,7 +69,7 @@ This approach has the main drawback that it requires to emulate the device prope
 
 
 ## Emulate Network/Device
-1. Bagula, B. A., and Zenville Erasmus. "Iot emulation with cooja." ICTP-IoT workshop. 2015.
+1. Bagula, B. A., and Zenville Erasmus. "Iot emulation with **cooja**." ICTP-IoT workshop. 2015.
 	- Only-targeted the Contiki OS - Contiki is an operating system for networked, memory-constrained systems with a focus on low-power wireless Internet of Things devices (e.g. Z1 mote https://github.com/Zolertia/Resources/wiki/The-Z1-mote)
 	- Have an MCU inside
 
