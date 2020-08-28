@@ -47,7 +47,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - LPM: Trustworthy whole-system provenance for the linux kernel. A. Bates. et al. Security'2015
 - Transparent Web Service Auditing via Network Provenance Functions. A. Bates, et al. WWW'2017
 - Fear and logging in the internet of things. Q. Wang, et al. NDSS'2018
-- Kernel-Supported Cost-Effective Audit Logging for Causality Tracking。 S. Ma, et al. ATC'2018
+- Kernel-Supported Cost-Effective Audit Logging for Causality Tracking. S. Ma, et al. ATC'2018
 
 ## SIEM
 #### Forensic Analysis
@@ -74,6 +74,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Fast Memory-efficient Anomaly Detection in Streaming Heterogeneous Graphs. E. Manzoor, et al. KDD'2016
 - Efficient Discovery of Abnormal Event Sequences in Enterprise Secur. B. Dong, et al. CIKM'2017
 - Collaborative Alert Ranking for Anomaly Detection. Y. Lin, et al. CIKM'2018
+- Heterogeneous Graph Matching Networks for Unknown Malware Detection. S. Wang, et al. IJCAI'2019
 - Holmes: real-time apt detection through correlation of suspicious information flows, S. M. Milajerdi, et al. SP'2019
 - Nodoze: Combatting threat alert fatigue with automated provenance triage. W. U. Hassan, et al. NDSS'2019
 - UNICORN: Runtime Provenance-Based Detector for Advanced Persistent Threats. Han, Xueyuan, et al. NDSS'2020
