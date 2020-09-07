@@ -67,6 +67,9 @@ This approach has the main drawback that it requires to emulate the device prope
 	- Not specific to the ARM architecture (they only do it on ARM???)
 	- Other types of dynamic firmware analysis that do not require fully accurate output from firmware can use P2IM
 
+2. Gustafson, Eric, et al. "Toward the analysis of embedded firmware through automated re-hosting." 22nd International Symposium on Research in Attacks, Intrusions and Defenses ({RAID} 2019). 2019. (**PRETENDER**) 
+
+3. Clements, Abraham A., et al. "**HALucinator**: Firmware Re-hosting Through Abstraction Layer Emulation." 29th USENIX Security Symposium (USENIX Sec). 2020.
 
 ## Emulate Network/Device
 1. Bagula, B. A., and Zenville Erasmus. "Iot emulation with **cooja**." ICTP-IoT workshop. 2015.
