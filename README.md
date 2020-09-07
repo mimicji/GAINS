@@ -9,7 +9,7 @@ This is a git repo maintained by Curiosity Group @ NUS.
 - [Binary analysis frameworks](framework.md)
 - [Disassembly, Assembly, Decompilation and Debugging](disasm.md)
 - [Taint Analysis](taint.md)
-- Binary Similarity (including cross-platform)
+- [Binary Code Similarity](bin_sim.md)
 - Malware Analysis / APT Analysis
 	- Malware Detection
 	- Malware Classification
