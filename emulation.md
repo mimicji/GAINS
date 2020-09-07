@@ -1,11 +1,11 @@
 # IoT Hardware Emulation/Simulate
 ## Table of contents
 - [Complete Hardware Emulation](#complete-hardware-emulation)
-- [Emulate OS-based (Linux-based) Device](#emulate-OS-based-(Linux-based)-device)
+- [Emulate OS-based (Linux-based) Device](#emulate-OS-based-\(Linux-based\)-device)
 	- [Hybrid Emulation Approach](#hybrid-emulation-approach)
 	- [Fully Emulated Environment](#fully-emulated-environment)
-- [Emulate non-Linux-based (bare-metal) IoT device](#emulate-non-Linux-based-(bare-metal)-IoT-device)
-- [Emulate Network/Device](#emulate-network/device)
+- [Emulate non-Linux-based (bare-metal) IoT device](#emulate-non-Linux-based-\(bare-metal\)-IoT-device)
+- [Emulate Network/Device](#emulate-network\/device)
 
 
 ## Complete Hardware Emulation
