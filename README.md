@@ -23,4 +23,6 @@ This is a git repo maintained by Curiosity Group @ NUS.
 - Automatic Exploit Generation & Program Repair
 - [IoT Emulation](emulation.md)
 - Trusted Computing
-- [Audit log analysis](auditlog.md)
+- Log Analysis
+	- [Audit log analysis](auditlog.md)
+	- Application log analysis
