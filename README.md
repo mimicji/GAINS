@@ -21,6 +21,7 @@ This is a git repo maintained by Curiosity Group @ NUS.
 	- Mutation
 	- Coverage
 - Automatic Exploit Generation & Program Repair
+- [Intrusion Detection System](eids.md)
 - [IoT Emulation](emulation.md)
 - Trusted Computing
 - Log Analysis
