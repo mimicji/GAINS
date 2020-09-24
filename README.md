@@ -25,4 +25,4 @@ This is a git repo maintained by Curiosity Group @ NUS.
 - Trusted Computing
 - Log Analysis
 	- [Audit log analysis](auditlog.md)
-	- Application log analysis
+	- [Application log analysis](applicationlog.md)
