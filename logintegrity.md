@@ -3,7 +3,19 @@
 - [Failure Detection](#failure-detection)
 
 
-## Third Party Auditor (TPA)
+## External Audit of the logs
 <!-- #### Literature -->
 1. Wang, Cong, et al. "Privacy-preserving public auditing for secure cloud storage." IEEE transactions on computers 62.2 (2011): 362-375.
+    - Third Party Auditor (TPA)
+
+2. Mirzamohammadi, Saeed, et al. "Ditio: Trustworthy auditing of sensor activities in mobile & IoT devices." Proceedings of the 15th ACM Conference on Embedded Network Sensor Systems. 2017.
+
+
+## Digital Forensic
+1. Kebande, Victor R., Nickson M. Karie, and H. S. Venter. "Adding digital forensic readiness as a security component to the IoT domain." (2018).
+    -  Digital Forensic Readiness (DFR)
+
+2. Kłos, Mateusz, and Imed El Fray. "Securing Event Logs with Blockchain for IoT." International Conference on Computer Information Systems and Industrial Management. Springer, Cham, 2020.
+
+
 
