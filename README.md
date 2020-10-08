@@ -22,7 +22,9 @@ This is a git repo maintained by Curiosity Group @ NUS.
 	- Coverage
 - Automatic Exploit Generation & Program Repair
 - [Intrusion Detection System](eids.md)
-- [IoT Emulation](emulation.md)
+- IoT
+	- [IoT Emulation](emulation.md)
+	- [IoT log integrity](logintegrity.md)
 - Trusted Computing
 - Log Analysis
 	- [Audit log analysis](auditlog.md)

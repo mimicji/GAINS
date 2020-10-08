@@ -1,6 +1,7 @@
 # Intrusion Detection System
 ## Table of contents
-- [Failure Detection](#failure-detection)
+- [External Audit of the logs](#external-audit-of-the-logs)
+- [Digital Forensics](#digital-forensics)
 
 
 ## External Audit of the logs
@@ -11,7 +12,7 @@
 2. Mirzamohammadi, Saeed, et al. "Ditio: Trustworthy auditing of sensor activities in mobile & IoT devices." Proceedings of the 15th ACM Conference on Embedded Network Sensor Systems. 2017.
 
 
-## Digital Forensic
+## Digital Forensics
 1. Kebande, Victor R., Nickson M. Karie, and H. S. Venter. "Adding digital forensic readiness as a security component to the IoT domain." (2018).
     -  Digital Forensic Readiness (DFR)
 
