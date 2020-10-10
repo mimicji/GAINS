@@ -18,5 +18,7 @@
 
 2. Kłos, Mateusz, and Imed El Fray. "Securing Event Logs with Blockchain for IoT." International Conference on Computer Information Systems and Industrial Management. Springer, Cham, 2020.
 
+3. H. N. Noura, O. Salman, A. Chehab, and R. Couturier, “DistLog: A distributed logging scheme for IoT forensics,” Ad Hoc Networks, vol. 98, p. 102061, 2020, doi: 10.1016/j.adhoc.2019.102061.
+
 
 
