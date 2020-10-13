@@ -20,5 +20,6 @@
 
 3. H. N. Noura, O. Salman, A. Chehab, and R. Couturier, “DistLog: A distributed logging scheme for IoT forensics,” Ad Hoc Networks, vol. 98, p. 102061, 2020, doi: 10.1016/j.adhoc.2019.102061.
 
+4. H. Nguyen, R. Ivanov, L. T. X. Phan, O. Sokolsky, J. Weimer and I. Lee, "LogSafe: Secure and Scalable Data Logger for IoT Devices," 2018 IEEE/ACM Third International Conference on Internet-of-Things Design and Implementation (IoTDI), Orlando, FL, 2018, pp. 141-152, doi: 10.1109/IoTDI.2018.00023.
 
 
