@@ -22,4 +22,6 @@
 
 4. H. Nguyen, R. Ivanov, L. T. X. Phan, O. Sokolsky, J. Weimer and I. Lee, "LogSafe: Secure and Scalable Data Logger for IoT Devices," 2018 IEEE/ACM Third International Conference on Internet-of-Things Design and Implementation (IoTDI), Orlando, FL, 2018, pp. 141-152, doi: 10.1109/IoTDI.2018.00023.
 
+5. M. A. B. Ahmadon, S. Yamaguchi, S. Saon and A. K. Mahamad, "On service security analysis for event log of IoT system based on data Petri net," 2017 IEEE International Symposium on Consumer Electronics (ISCE), Kuala Lumpur, 2017, pp. 4-8, doi: 10.1109/ISCE.2017.8355531.
+
 
