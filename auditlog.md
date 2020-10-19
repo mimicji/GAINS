@@ -13,7 +13,7 @@
 - [Integrity](#integrity)
 
 ## Survey
-- Threat Detection and Investigation with System-level Provenance Graphs: A Survey. Zhenyuan, et al. arxiv'2020
+- Threat Detection and Investigation with System-level Provenance Graphs: A Survey. Zhenyuan, et al. arxiv'2020 [paper](https://arxiv.org/pdf/2006.01722.pdf)
 
 ## Definition
 Every event in audit logs represents an OS-level system activity such as process creation, file access, and network connection. Here, we use read and execve activities as examples to illustrate log events.
@@ -38,90 +38,95 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - `FreeBSD` [Dtrace](https://wiki.freebsd.org/DTrace): kernel-level tracing facility for FreeBSD
 
 #### Literature
-- Forensix: A robust, high-performance reconstruction system, A. Goel, et al. Distributed computing systems workshops 2005
-- PASS: Provenance-aware storage systems. K. Muniswamy-Reddy, et al. ATC'2006
-- Layering in provenance systems. K.-K. Muniswamy-Reddy, et al. Security'2009
-- Trail of bytes: efficient support for forensic analysis. S. Krishnan, K. Z. Snow, and F. Monrose. CCS'2010
-- Hi-fi: collecting high-fidelity whole-system provenance. D. J. Pohly, et al. CCS'2012
-- Spade: support for provenance auditing in distributed environments. A. Gehani and D. Tariq. International Middleware Conference 2012
-- LPM: Trustworthy whole-system provenance for the linux kernel. A. Bates. et al. Security'2015
-- Transparent Web Service Auditing via Network Provenance Functions. A. Bates, et al. WWW'2017
-- Fear and logging in the internet of things. Q. Wang, et al. NDSS'2018
-- Kernel-Supported Cost-Effective Audit Logging for Causality Tracking. S. Ma, et al. ATC'2018
+- Forensix: A robust, high-performance reconstruction system. A. Goel, et al. Distributed computing systems workshops 2005 [paper](https://thefengs.com/wuchang/papers/sdcs05_forensix_full.pdf)
+- PASS: Provenance-aware storage systems. K. Muniswamy-Reddy, et al. ATC'2006 [paper](https://syrah.eecs.harvard.edu/files/syrah/files/usenix06.pdf)
+- Layering in provenance systems. K.-K. Muniswamy-Reddy, et al. Security'2009 [paper](https://www.usenix.org/legacy/events/usenix09/tech/full_papers/muniswamy-reddy/muniswamy-reddy.pdf)
+- Trail of bytes: efficient support for forensic analysis. S. Krishnan, K. Z. Snow, and F. Monrose. CCS'2010 [paper](https://www.cs.unc.edu/~fabian/papers/trail10.pdf)
+- Hi-fi: collecting high-fidelity whole-system provenance. D. J. Pohly, et al. CCS'2012 [paper](https://www.cise.ufl.edu/~butler/pubs/acsac12b.pdf)
+- Spade: support for provenance auditing in distributed environments. A. Gehani and D. Tariq. International Middleware Conference 2012 [paper](http://www.csl.sri.com/users/gehani/papers/MW-2012.SPADE.pdf)
+- LPM: Trustworthy whole-system provenance for the linux kernel. A. Bates. et al. Security'2015 [paper](http://www.csl.sri.com/users/gehani/papers/MW-2012.SPADE.pdf)
+- Transparent Web Service Auditing via Network Provenance Functions. A. Bates, et al. WWW'2017 [paper](https://cise.ufl.edu/~butler/pubs/www17.pdf)
+- Fear and logging in the internet of things. Q. Wang, et al. NDSS'2018 [paper](http://seclab.illinois.edu/wp-content/uploads/2017/12/wang2018fear.pdf)
+- Kernel-Supported Cost-Effective Audit Logging for Causality Tracking. S. Ma, et al. ATC'2018 [paper](https://www.usenix.org/system/files/conference/atc18/atc18-ma-shiqing.pdf)
 
 ## SIEM
 #### Forensic Analysis
-- Backtracking intrusions. King, et al. SOSP'2003
-- Enriching intrusion alerts through multi-host causality. S. T. King, et al. NDSS'2005
-- The taser intrusion recovery system. A. Goel, et al. ASPLOS'2005
-- Provenance-aware tracing ofworm break-in and contaminations: A process coloring approach. X. Jiang et al. ICDCS'2006
-- Intrusion recovery using selective re-execution. T. Kim, et al. OSDI'2010
-- Integrating ids alert correlation and os-level dependency tracking. Y. Zhai, et al. Intelligence and Security Informatics 2016
-- CamFlow: Practical whole-system provenance capture. Pasquier, et al. Cloud Computing 2017
-- SLEUTH: Real-time attack scenario reconstruction from COTS audit data. M. N. Hossain, et al. Security'2017
-- Towards a timely causality analysis for enterprise security. Y. Liu, et al. NDSS'2018
-- LPROV: Practical Library-aware Provenance Tracing. F. Wang, et al. ACSAC'2018
+- Backtracking intrusions. King, et al. SOSP'2003 [paper](https://web.eecs.umich.edu/virtual/papers/king05_2.pdf)
+- Enriching intrusion alerts through multi-host causality. S. T. King, et al. NDSS'2005 [paper](https://web.eecs.umich.edu/virtual/papers/king05.pdf)
+- The taser intrusion recovery system. A. Goel, et al. ASPLOS'2005 [paper](https://dl.acm.org/doi/pdf/10.1145/1095810.1095826)
+- Provenance-aware tracing ofworm break-in and contaminations: A process coloring approach. X. Jiang et al. ICDCS'2006 [paper](https://www.cs.purdue.edu/homes/dxu/pubs/ICDCS06.pdf)
+- Intrusion recovery using selective re-execution. T. Kim, et al. OSDI'2010 [paper](https://people.csail.mit.edu/nickolai/papers/kim-retro.pdf)
+- Integrating ids alert correlation and os-level dependency tracking. Y. Zhai, et al. Intelligence and Security Informatics 2016 [paper](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.5496&rep=rep1&type=pdf)
+- CamFlow: Practical whole-system provenance capture. Pasquier, et al. Cloud Computing 2017 [paper](https://dl.acm.org/doi/pdf/10.1145/3127479.3129249)
+- SLEUTH: Real-time attack scenario reconstruction from COTS audit data. M. N. Hossain, et al. Security'2017 [paper](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-hossain.pdf)
+- Towards a timely causality analysis for enterprise security. Y. Liu, et al. NDSS'2018 [paper](https://www.princeton.edu/~pmittal/publications/priotracker-ndss18)
+- LPROV: Practical Library-aware Provenance Tracing. F. Wang, et al. ACSAC'2018 [paper](https://yonghwi-kwon.github.io/data/lprov_acsac18.pdf)
 
 #### Attack Detection
-- Detecting intrusions using system calls: Alternative data models. C. Warrender, et al. SP'1999
-- Provenance-Aware Tracing of Worm Break-in and Contaminations: A Process Coloring Approach. X. Jiang, et al. ICDCS'2006
-- On the learning of system call attributes for host-based anomaly detection. G. Tandon and P. K. Chan. IJCAI'2006
-- Detecting insider threats in a real corporate database of computer usage activity. E. Ted, et al. KDD'2013
-- Malicious behavior detection using Windows audit logs. K. Berlin, et al. AISec'2015
-- Detection of early-stage enterprise infection by mining large-scale log data. A. Oprea, et al. SDN'2015
-- Entity embedding-based anomaly detection for heterogeneous categorical events. T. Chen, et al. IJCAI'2016
-- Hercule: Attack story reconstruction via community discovery on correlated log graph, K. Pei, et al. ACSAC'2016
-- Fast Memory-efficient Anomaly Detection in Streaming Heterogeneous Graphs. E. Manzoor, et al. KDD'2016
-- Efficient Discovery of Abnormal Event Sequences in Enterprise Secur. B. Dong, et al. CIKM'2017
-- Collaborative Alert Ranking for Anomaly Detection. Y. Lin, et al. CIKM'2018
-- Heterogeneous Graph Matching Networks for Unknown Malware Detection. S. Wang, et al. IJCAI'2019
-- Holmes: real-time apt detection through correlation of suspicious information flows, S. M. Milajerdi, et al. SP'2019
-- Nodoze: Combatting threat alert fatigue with automated provenance triage. W. U. Hassan, et al. NDSS'2019
-- UNICORN: Runtime Provenance-Based Detector for Advanced Persistent Threats. Han, Xueyuan, et al. NDSS'2020
-- You are what you do: Hunting stealthy malware via data provenance analysis. Wang, Qi, et al. NDSS'2020
-- Tactical Provenance Analysis for Endpoint Detection and Response Systems. W. U. Hassan, et al. SP'2020
+- Detecting intrusions using system calls: Alternative data models. C. Warrender, et al. SP'1999 [paper](http://wenke.gtisc.gatech.edu/ids-readings/system_call_models.pdf)
+- Provenance-Aware Tracing of Worm Break-in and Contaminations: A Process Coloring Approach. X. Jiang, et al. ICDCS'2006 [paper](https://www.cs.purdue.edu/homes/dxu/pubs/ICDCS06.pdf)
+- On the learning of system call attributes for host-based anomaly detection. G. Tandon and P. K. Chan. IJCAI'2006 [paper](https://pdfs.semanticscholar.org/1f05/969f6e72aad5e15e13df8019351085cc9683.pdf)
+- Detecting insider threats in a real corporate database of computer usage activity. E. Ted, et al. KDD'2013 [paper](https://dl.acm.org/doi/pdf/10.1145/2487575.2488213)
+- Malicious behavior detection using Windows audit logs. K. Berlin, et al. AISec'2015 [paper](https://arxiv.org/pdf/1506.04200.pdf)
+- Detection of early-stage enterprise infection by mining large-scale log data. A. Oprea, et al. SDN'2015 [paper](https://arxiv.org/pdf/1411.5005.pdf)
+- Entity embedding-based anomaly detection for heterogeneous categorical events. T. Chen, et al. IJCAI'2016 [paper](https://www.ijcai.org/Proceedings/16/Papers/201.pdf)
+- Hercule: Attack story reconstruction via community discovery on correlated log graph, K. Pei, et al. ACSAC'2016 [paper](https://www.cs.purdue.edu/homes/dxu/pubs/HERCULE.pdf)
+- Fast Memory-efficient Anomaly Detection in Streaming Heterogeneous Graphs. E. Manzoor, et al. KDD'2016 [paper](https://www.kdd.org/kdd2016/papers/files/rfp0693-manzoorA.pdf)
+- Efficient Discovery of Abnormal Event Sequences in Enterprise Secur. B. Dong, et al. CIKM'2017 [paper](https://dl.acm.org/doi/pdf/10.1145/3132847.3132854)
+- Collaborative Alert Ranking for Anomaly Detection. Y. Lin, et al. CIKM'2018 [paper](https://dl.acm.org/doi/pdf/10.1145/3269206.3272013)
+- Heterogeneous Graph Matching Networks for Unknown Malware Detection. S. Wang, et al. IJCAI'2019 [paper](https://www.ijcai.org/Proceedings/2019/0522.pdf)
+- Holmes: real-time apt detection through correlation of suspicious information flows, S. M. Milajerdi, et al. SP'2019 [paper](https://smomen2.people.uic.edu/publications/HOLMES.pdf)
+- Nodoze: Combatting threat alert fatigue with automated provenance triage. W. U. Hassan, et al. NDSS'2019 [paper](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03B-1-3_UlHassan_paper.pdf)
+- UNICORN: Runtime Provenance-Based Detector for Advanced Persistent Threats. Han, Xueyuan, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24046-paper.pdf)
+- You are what you do: Hunting stealthy malware via data provenance analysis. Wang, Qi, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24167-paper.pdf)
+- Tactical Provenance Analysis for Endpoint Detection and Response Systems. W. U. Hassan, et al. SP'2020 [paper](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b711/1j2LguGqIIo)
 
 ## Limitations
 #### Space Overhead
-- Loggc: garbage collecting audit log. K. H. Lee, et al. CCS'2013
-- High fidelity data reduction for big data security dependency analyses. Z. Xu, et al. CCS'2016
-- Protracer: Towards practical provenance tracing by alternating between logging and tainting. S. Ma, X. Zhang, and D. Xu. NDSS 2016
-- Towards scalable cluster auditing through grammatical inference over provenance graphs. W. U. Hassan, et al. NDSS'2018
-- Dependence-preserving data compaction for scalable forensic analysis. M. N. Hossain, et al. Security'2018
-- NodeMerge: Template Based Efficient Data Reduction For Big-Data Causality Analysis. Y. Tang, et al. CCS'2018
-- APTrace: A Responsive System for Agile Enterprise Level Causality Analysis. Gui, et, al. ICDE'2020
+- Loggc: garbage collecting audit log. K. H. Lee, et al. CCS'2013 [paper](https://friends.cs.purdue.edu/pubs/CCS13_LogGC.pdf)
+- High fidelity data reduction for big data security dependency analyses. Z. Xu, et al. CCS'2016 [paper](https://kangkookjee.github.io/publications/xu-ccs2016.pdf)
+- Protracer: Towards practical provenance tracing by alternating between logging and tainting. S. Ma, X. Zhang, and D. Xu. NDSS 2016 [paper](https://friends.cs.purdue.edu/pubs/NDSS16.pdf)
+- Towards scalable cluster auditing through grammatical inference over provenance graphs. W. U. Hassan, et al. NDSS'2018 [paper](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_07B-1_Hassan_paper.pdf)
+- Dependence-preserving data compaction for scalable forensic analysis. M. N. Hossain, et al. Security'2018 [paper](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-hossain.pdfs)
+- NodeMerge: Template Based Efficient Data Reduction For Big-Data Causality Analysis. Y. Tang, et al. CCS' [paper](https://kangkookjee.github.io/publications/nodemerge-ccs2018.pdf)
+- APTrace: A Responsive System for Agile Enterprise Level Causality Analysis. Gui, et, al. ICDE'2020 [paper](https://ieeexplore.ieee.org/document/9101446/)
 
 #### Dependency Explosion
-- Forensic analysis of file system intrusions using improved backtracking, S. Sitaraman and S. Venkatesan. IWIA'2005
-- Panorama: capturing system-wide information flow for malware detection and analysis. H.Yin, et al. CCS'2007
-- High accuracy attack provenance via binary-based execution partition. K. H. Lee, X. Zhang, and D. Xu. NDSS'2013
-- Accurate, low cost and instrumentation-free security audit logging for windows. S. Ma, et al. ACSAC'2015
-- Protracer: Towards practical provenance tracing by alternating between logging and tainting. S. Ma, X. Zhang, and D. Xu. NDSS 2016
-- LDX: Causality inference by lightweight dual execution, Y. Kwon, et al. ASPLOS'2016
-- MPI: Multiple perspective attack investigation with semantic aware execution partitioning. S. Ma, et al. Security'2017
-- Rain: Refinable attack investigation with on-demand inter-process information flow tracking. Y. Ji, et al. CCS'2017
-- Enabling refinable cross-host attack investigation with efficient data flow tagging and tracking. Y. Ji, et al. Security'2018
-- MCI: Modeling-based causality inference in audit logging for attack investigation. Y. Kwon, et al. NDSS'2018
-- Propatrol: Attack investigation via extracted high-level tasks. S. M Milajerdi, et al. Information Systems Security 2018
-- Omega-Log: High-fidelity attack investigation via transparent multi-layer log analysis. Hassan, Wajih Ul, et al. NDSS'2020
-- Combating Dependence Explosion in Forensic Analysis Using Alternative Tag Propagation Semantics. M. N. Hossain, et al. SP'2020
+- Forensic analysis of file system intrusions using improved backtracking, S. Sitaraman and S. Venkatesan. IWIA'2005 [paper](https://dl.acm.org/doi/10.1109/IWIA.2005.9)
+- Panorama: capturing system-wide information flow for malware detection and analysis. H.Yin, et al. CCS'2007 [paper](http://bitblaze.cs.berkeley.edu/papers/panorama.pdf)
+- High accuracy attack provenance via binary-based execution partition. K. H. Lee, X. Zhang, and D. Xu. NDSS'2013 [paper](https://www.ndss-symposium.org/wp-content/uploads/2017/09/03_1_0.pdf)
+- Accurate, low cost and instrumentation-free security audit logging for windows. S. Ma, et al. ACSAC'2015 [paper](https://kyuhlee.github.io/publications/acsac15.pdf)
+- Protracer: Towards practical provenance tracing by alternating between logging and tainting. S. Ma, X. Zhang, and D. Xu. NDSS 2016 [paper](https://friends.cs.purdue.edu/pubs/NDSS16.pdf)
+- LDX: Causality inference by lightweight dual execution, Y. Kwon, et al. ASPLOS'2016 [paper](https://dl.acm.org/doi/pdf/10.1145/2954679.2872395)
+- MPI: Multiple perspective attack investigation with semantic aware execution partitioning. S. Ma, et al. Security'2017 [paper](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-ma.pdf)
+- Rain: Refinable attack investigation with on-demand inter-process information flow tracking. Y. Ji, et al. CCS'2017 [paper](https://iisp.gatech.edu/sites/default/files/images/rain.pdf)
+- Enabling refinable cross-host attack investigation with efficient data flow tagging and tracking. Y. Ji, et al. Security'2018 [paper](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-ji.pdf)
+- MCI: Modeling-based causality inference in audit logging for attack investigation. Y. Kwon, et al. NDSS'2018 [paper](https://weihang-wang.github.io/papers/mci_ndss18.pdf)
+- Propatrol: Attack investigation via extracted high-level tasks. S. M Milajerdi, et al. Information Systems Security 2018 [paper](https://arxiv.org/pdf/1810.05711.pdf)
+- Omega-Log: High-fidelity attack investigation via transparent multi-layer log analysis. Hassan, Wajih Ul, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24270-paper.pdf)
+- Combating Dependence Explosion in Forensic Analysis Using Alternative Tag Propagation Semantics. M. N. Hossain, et al. SP'2020 [paper](http://seclab.cs.sunysb.edu/seclab/pubs/morse20.pdf)
 
 ## Query
-- Behavior query discovery in system-generated temporal graphs. B. Zong, et al. VLDB'2015
-- AIQL: Enabling efficient attack investigation from system monitoring data. P.Gao, et al. ATC'2018
-- SAQL: A stream-based query system for real-time abnormal system behavior detection. P.Gao, et al. Security'2018
-- Threat intelligence computing. X. Shu, et al. CCS'2018
-- Runtime Analysis of Whole-System Provenance. T. Pasquier, et al. CCS'2018
-- Graalf: Supporting graphical analysis of audit logs for forensics. O. Setayeshfar, et al. arXiv'2019
-- Poirot: Aligning attack behavior with kernel audit records for cyber threat hunting. S. M Milajerdi. CCS'2019
+- Behavior query discovery in system-generated temporal graphs. B. Zong, et al. VLDB'2015 [paper](http://www.vldb.org/pvldb/vol9/p240-zong.pdf)
+- AIQL: Enabling efficient attack investigation from system monitoring data. P.Gao, et al. ATC'2018 [paper](https://www.usenix.org/system/files/conference/atc18/atc18-gao.pdf)
+- SAQL: A stream-based query system for real-time abnormal system behavior detection. P.Gao, et al. Security'2018 [paper](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-gao_0.pdf)
+- Threat intelligence computing. X. Shu, et al. CCS'2018 [paper](https://dl.acm.org/doi/pdf/10.1145/3243734.3243829)
+- Runtime Analysis of Whole-System Provenance. T. Pasquier, et al. CCS'2018 [paper](https://arxiv.org/pdf/1808.06049.pdf)
+- Graalf: Supporting graphical analysis of audit logs for forensics. O. Setayeshfar, et al. arXiv'2019 [paper](https://arxiv.org/pdf/1909.00902.pdf)
+- Poirot: Aligning attack behavior with kernel audit records for cyber threat hunting. S. M Milajerdi. CCS'2019 [paper](https://smomen2.people.uic.edu/publications/POIROT.pdf)
 
 ## Integrity
-- Forward integrity for secure audit logs. M. Bellare and B. Yee. Tech. Rep. 1997
-- A new approach to secure logging. D. Ma and G. Tsudik. TOS'2009
-- Efficient data structures for tamper-evident logging. S. A. Crosby and D. S. Wallach. Security'2009
-- BAF: An efficient publicly verifiable secure audit logging scheme for distributed systems. A. A. Yavuz and P. Ning. ACSAC'2009
-- Efficient, compromise resilient and append-only cryptographic schemes for secure audit logging. FC'2012
-- Sgx-log: Securing system logs with sgx. Karande, Vishal, et al. AsiaCCS'2017
-- Practical and robust secure logging from fault-tolerant sequential aggregate signatures. G. Hartung, et al. ProvSec'2017
-- Custos: Practical tamper-evident auditing of operating systems using trusted execution. Paccagnella, Riccardo, et al. NDSS'2020
+- Forward integrity for secure audit logs. M. Bellare and B. Yee. Tech. Rep. 1997 [paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.28.7970)
+- A new approach to secure logging. D. Ma and G. Tsudik. TOS'2009 [paper](https://dl.acm.org/doi/pdf/10.1145/1502777.1502779)
+- Efficient data structures for tamper-evident logging. S. A. Crosby and D. S. Wallach. Security'2009 [paper](https://www.usenix.org/legacy/event/sec09/tech/full_papers/crosby.pdf)
+- BAF: An efficient publicly verifiable secure audit logging scheme for distributed systems. A. A. Yavuz and P. Ning. ACSAC'2009 [paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.147.9496&rep=rep1&type=pdf)
+- Efficient, compromise resilient and append-only cryptographic schemes for secure audit logging. FC'2012 [paper](https://link.springer.com/chapter/10.1007/978-3-642-32946-3_12)
+- Sgx-log: Securing system logs with sgx. Karande, Vishal, et al. AsiaCCS'2017 [paper](https://dl.acm.org/doi/pdf/10.1145/3052973.3053034)
+- Practical and robust secure logging from fault-tolerant sequential aggregate signatures. G. Hartung, et al. ProvSec'2017 [paper](https://eprint.iacr.org/2017/949.pdf)
+- Custos: Practical tamper-evident auditing of operating systems using trusted execution. Paccagnella Riccardo, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24065-paper.pdf)
+- Logging to the Danger Zone: Race Condition Attacks and Defenses on System Audit Frameworks. Paccagnella Riccardo, et al. CCS'2020 [paper](https://www.kevliao.com/publications/kennyloggings-ccs2020.pdf)
 
+## Not Released Yet (19/10/2020)
+- Workflow Integration Alleviates Identity and Access Management in Serverless Computing. Arnav Sankaran, et al. ACSAC'2020
+- This is Why We Can't Cache Nice Things: Lightning-Fast Threat Hunting using Suspicion-Based Hierarchical Storage Wajih Ul Hassan, et al. ACSAC'2020
+- On the Forensic Validity of Approximated Audit Logs. Noor Michael, et al. ACSAC'2020
