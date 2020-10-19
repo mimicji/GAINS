@@ -1,5 +1,5 @@
 # GAINS
-Here list some papers and tools (categorized by research aeras) by which you might be interested if you want to get start with system security. We hope this may help you.
+Here list some papers and tools (categorized by research aeras) by which you might be interested if you want to get started with system security. We hope this may help you.
 Enjoy!
 
 This is a git repo maintained by Curiosity Group @ NUS.
