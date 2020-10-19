@@ -25,6 +25,7 @@
 - Ming, Jiang, et al. "[Taintpipe: Pipelined symbolic taint analysis.](https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/ming)" _24th USENIX Security Symposium (USENIX Security 15)_. 2015.
 - Quinn, Andrew, et al. "[JetStream: Cluster-scale parallelization of information flow queries.](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/quinn))" _12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16)_. 2016.
 - Banerjee, Subarno, et al. "[Iodine: fast dynamic taint tracking using rollback-free optimistic hybrid analysis.](https://web.eecs.umich.edu/~pmchen/papers/banerjee19.pdf)" _2019 IEEE Symposium on Security and Privacy (SP)_. IEEE, 2019.
+- Galea, John, and Daniel Kroening. "[The Taint Rabbit: Optimizing Generic Taint Analysis with Dynamic Fast Path Generation.](https://arxiv.org/pdf/2007.05955.pdf)" _ASIA CCS_, 2020.
 
 #### Commodity Hardware
 - `Speck` Nightingale, Edmund B., et al. "[Parallelizing security checks on commodity hardware.](https://dl.acm.org/doi/pdf/10.1145/1353534.1346321)" _ACM SIGARCH Computer Architecture News_ 36.1 (2008): 308-318.
