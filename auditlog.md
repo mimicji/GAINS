@@ -126,7 +126,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Custos: Practical tamper-evident auditing of operating systems using trusted execution. Paccagnella Riccardo, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24065-paper.pdf)
 - Logging to the Danger Zone: Race Condition Attacks and Defenses on System Audit Frameworks. Paccagnella Riccardo, et al. CCS'2020 [paper](https://www.kevliao.com/publications/kennyloggings-ccs2020.pdf)
 
-## not released yet
+## Not Released Yet (19/10/2020)
 - Workflow Integration Alleviates Identity and Access Management in Serverless Computing. Arnav Sankaran, et al. ACSAC'2020
 - This is Why We Can't Cache Nice Things: Lightning-Fast Threat Hunting using Suspicion-Based Hierarchical Storage Wajih Ul Hassan, et al. ACSAC'2020
 - On the Forensic Validity of Approximated Audit Logs. Noor Michael, et al. ACSAC'2020
