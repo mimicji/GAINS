@@ -12,6 +12,7 @@
 - Andriesse, Dennis, et al. "[An in-depth analysis of disassembly on full-scale x86/x64 binaries.](https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_andriesse.pdf)" _25th USENIX Security Symposium (USENIX Security 16)_. 2016.
 ## Decompilation
 - Liu, Zhibo, and Shuai Wang. "[How far we have come: testing decompilation correctness of C decompilers.](https://dl.acm.org/doi/pdf/10.1145/3395363.3397370)" Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis. 2020.
+- Gussoni, Andrea, et al. "[A Comb for Decompiled C Code.](https://dl.acm.org/doi/pdf/10.1145/3320269.3384766)" Proceedings of the 15th ACM Asia Conference on Computer and Communications Security. 2020.
 ## Tools
 ### Disassemblers
 - [IDA Pro](https://www.hex-rays.com/products/ida/)

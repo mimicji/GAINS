@@ -44,7 +44,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Trail of bytes: efficient support for forensic analysis. S. Krishnan, K. Z. Snow, and F. Monrose. CCS'2010 [paper](https://www.cs.unc.edu/~fabian/papers/trail10.pdf)
 - Hi-fi: collecting high-fidelity whole-system provenance. D. J. Pohly, et al. CCS'2012 [paper](https://www.cise.ufl.edu/~butler/pubs/acsac12b.pdf)
 - Spade: support for provenance auditing in distributed environments. A. Gehani and D. Tariq. International Middleware Conference 2012 [paper](http://www.csl.sri.com/users/gehani/papers/MW-2012.SPADE.pdf)
-- LPM: Trustworthy whole-system provenance for the linux kernel. A. Bates. et al. Security'2015 [paper](http://www.csl.sri.com/users/gehani/papers/MW-2012.SPADE.pdf)
+- LPM: Trustworthy whole-system provenance for the linux kernel. A. Bates. et al. Security'2015 [paper](https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-bates.pdf)
 - Transparent Web Service Auditing via Network Provenance Functions. A. Bates, et al. WWW'2017 [paper](https://cise.ufl.edu/~butler/pubs/www17.pdf)
 - Fear and logging in the internet of things. Q. Wang, et al. NDSS'2018 [paper](http://seclab.illinois.edu/wp-content/uploads/2017/12/wang2018fear.pdf)
 - Kernel-Supported Cost-Effective Audit Logging for Causality Tracking. S. Ma, et al. ATC'2018 [paper](https://www.usenix.org/system/files/conference/atc18/atc18-ma-shiqing.pdf)
