@@ -28,11 +28,11 @@
 
 - [Be conservative: Enhancing failure diagnosis with proactive logging](http://opera.ucsd.edu/paper/osdi12-errlog.pdf) D. Yuan et al. OSDI 2012
 - [Structural information based term weighting in text retrieval for feature location](https://info.computer.org/csdl/proceedings-article/icpc/2013/06613841/12OmNxFJXAo) B. Bassett et al. ICPC 2013
+- [Which log level should developers choose for a new logging statement?](https://users.encs.concordia.ca/~shang/pubs/EMSE2016_heng_level.pdf) H. Li et al. EMSE 2013
 - [Where do developers log? An empirical study on logging practices in industry](https://netman.aiops.org/~peidan/ANM2019/6.LogAnomalyDetection/ReadingList/Where%20Do%20Developers%20Log%3F%20An%20Empirical%20Study%20on%20Logging%20Practices%20in%20Industr.pdf) Q. Fu. et at. ICSE 2014
 - [Learning to log: Helping developers make informed logging decisions.](http://petertsehsun.github.io/soen691/current/papers/jmzhu_icse2015.pdf) J. Zhu et al. ICSE 2015
 - [Which log level should developers choose for a new logging statement?](https://users.encs.concordia.ca/~shang/pubs/EMSE2016_heng_level.pdf) H. Li. et al. EMSE 2016
 - [Log20: Fully Automated Optimal Placement of Log Printing Statements under Specified Overhead Threshold](https://dl.acm.org/doi/pdf/10.1145/3132747.3132778) X. Zhao et al. SOSP 2017
-- [Which log level should developers choose for a new logging statement?](https://users.encs.concordia.ca/~shang/pubs/EMSE2016_heng_level.pdf) H. Li et al. EMSE 2013
 - [SMARTLOG: Place error log statement by deep understanding of log intention](https://ieeexplore.ieee.org/document/8330197) Z. Jia et al. SANER 2018
 - [Studying software logging using topic models](https://link.springer.com/article/10.1007/s10664-018-9595-8) H. Li. ea al. ESE 2018
 - [Where Shall We Log? Studying and Suggesting Logging Locations in Code Blocks](https://petertsehsun.github.io/publication/ase2020/) Z. Li et al. ASE 2020
