@@ -93,6 +93,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Dependence-preserving data compaction for scalable forensic analysis. M. N. Hossain, et al. Security'2018 [paper](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-hossain.pdfs)
 - NodeMerge: Template Based Efficient Data Reduction For Big-Data Causality Analysis. Y. Tang, et al. CCS' [paper](https://kangkookjee.github.io/publications/nodemerge-ccs2018.pdf)
 - APTrace: A Responsive System for Agile Enterprise Level Causality Analysis. Gui, et, al. ICDE'2020 [paper](https://ieeexplore.ieee.org/document/9101446/)
+- On the Forensic Validity of Approximated Audit Logs. N. Michael, et al. ACSAC'2020. [paper](https://adambates.org/documents/Michael_Acsac20.pdf)
 
 #### Dependency Explosion
 - Forensic analysis of file system intrusions using improved backtracking, S. Sitaraman and S. Venkatesan. IWIA'2005 [paper](https://dl.acm.org/doi/10.1109/IWIA.2005.9)
@@ -128,7 +129,3 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Practical and robust secure logging from fault-tolerant sequential aggregate signatures. G. Hartung, et al. ProvSec'2017 [paper](https://eprint.iacr.org/2017/949.pdf)
 - Custos: Practical tamper-evident auditing of operating systems using trusted execution. Paccagnella Riccardo, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24065-paper.pdf)
 - Logging to the Danger Zone: Race Condition Attacks and Defenses on System Audit Frameworks. Paccagnella Riccardo, et al. CCS'2020 [paper](https://www.kevliao.com/publications/kennyloggings-ccs2020.pdf)
-
-## Paper-to-read (07/12/2020)
-- Workflow Integration Alleviates Identity and Access Management in Serverless Computing. A. Sankaran, et al. ACSAC'2020
-- On the Forensic Validity of Approximated Audit Logs. N. Michael, et al. ACSAC'2020
