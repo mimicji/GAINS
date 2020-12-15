@@ -20,63 +20,63 @@ This approach has the main drawback that it requires to emulate the device prope
 
 ## Emulate OS-based (Linux-based) Device
 ### Hybrid Emulation Approach
-1. Zaddach, Jonas, et al. "**AVATAR**: A Framework to Support Dynamic Security Analysis of Embedded Systems' Firmwares." NDSS. Vol. 14. 2014.
+1. Zaddach, Jonas, et al. "**AVATAR**: A Framework to Support Dynamic Security Analysis of Embedded Systems' Firmwares." NDSS. Vol. 14. 2014. [paper](https://www.ndss-symposium.org/wp-content/uploads/2017/09/02_3_1.pdf)
 	- Hybrid way: emulator with hardware
 	- Other methods: complete hardware emulation, hardware over-approximation, firmware adaption  
 
-2. Talebi, Seyed Mohammadjavad Seyed, et al. "**Charm**: Facilitating dynamic analysis of device drivers of mobile systems." 27th {USENIX} Security Symposium ({USENIX} Security 18). 2018.
+2. Talebi, Seyed Mohammadjavad Seyed, et al. "**Charm**: Facilitating dynamic analysis of device drivers of mobile systems." 27th {USENIX} Security Symposium ({USENIX} Security 18). 2018. [paper](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-talebi.pdf)
 	- Decouples the execution of the device driver from the mobile system hardware. Enable the device driver to run in a virtual machine on a different physical machine
 	- Now only supports open-source device drivers
 	- Makes a claim: Emulating the I/O device hardware for the virtual machine in software requires prohibitive engineering effort due to the diversity of I/O devices in mobile systems
 
-3. Koscher, Karl, Tadayoshi Kohno, and David Molnar. "**SURROGATES**: Enabling near-real-time dynamic analyses of embedded systems." 9th {USENIX} Workshop on Offensive Technologies ({WOOT} 15). 2015.
+3. Koscher, Karl, Tadayoshi Kohno, and David Molnar. "**SURROGATES**: Enabling near-real-time dynamic analyses of embedded systems." 9th {USENIX} Workshop on Offensive Technologies ({WOOT} 15). 2015. [paper](https://www.usenix.org/system/files/conference/woot15/woot15-paper-koscher.pdf)
 	- By using a custom FPGA bridge between the host and target, it enables near-real-time emulation of the target system
 	- Similar to Avatar (improves the forwarding performance of Avatar via customized hardware)
 
-4. Muench, Marius, et al. "**Avatar2**: A multi-target orchestration platform." Proc. Workshop Binary Anal. Res.(Colocated NDSS Symp.). Vol. 18. 2018.
+4. Muench, Marius, et al. "**Avatar2**: A multi-target orchestration platform." Proc. Workshop Binary Anal. Res.(Colocated NDSS Symp.). Vol. 18. 2018. [paper](https://www.ndss-symposium.org/wp-content/uploads/2018/07/bar2018_1_Muench_paper.pdf)
 	- Extends Avatar to allow replay of forwarded peripheral I/O without using real devices
 
-5. Kammerstetter, Markus, Christian Platzer, and Wolfgang Kastner. "**Prospect**: peripheral proxying supported embedded code testing." Proceedings of the 9th ACM symposium on Information, computer and communications security. 2014.
+5. Kammerstetter, Markus, Christian Platzer, and Wolfgang Kastner. "**Prospect**: peripheral proxying supported embedded code testing." Proceedings of the 9th ACM symposium on Information, computer and communications security. 2014. [paper](https://dl.acm.org/doi/pdf/10.1145/2590296.2590301)
 	- Forwards peripheral accesses at the syscall level (which does not exist on bare-metal MCU devices)
 
-6. Kammerstetter, Markus, Daniel Burian, and Wolfgang Kastner. "Embedded security testing with peripheral device caching and runtime program state approximation." 10th International Conference on Emerging Security Information, Systems and Technologies (SECUWARE). 2016.
+6. Kammerstetter, Markus, Daniel Burian, and Wolfgang Kastner. "Embedded security testing with peripheral device caching and runtime program state approximation." 10th International Conference on Emerging Security Information, Systems and Technologies (SECUWARE). 2016. [paper](https://www.thinkmind.org/articles/securware_2016_2_10_30082.pdf)
 	- Uses cached peripheral accesses to approximate firmware states for analysis (over-approximate?)
 
 ### Fully Emulated Environment
-1. Chen, Daming D., et al. "Towards Automated Dynamic Analysis for Linux-based Embedded Firmware." NDSS. Vol. 16. 2016. (**FIRMADYNE**)
+1. Chen, Daming D., et al. "Towards Automated Dynamic Analysis for Linux-based Embedded Firmware." NDSS. Vol. 16. 2016. (**FIRMADYNE**) [paper](https://www.ndss-symposium.org/wp-content/uploads/2017/09/towards-automated-dynamic-analysis-linux-based-embedded-firmware.pdf)
 	- Targets Linux-based firmware on network-connected COTS devices
 	- Uses the pre-compiled kernels
 	- Dynamic analysis as a proof-of-concept application to find out the vulnerability
 
-2. Renzelmann, Matthew J., Asim Kadav, and Michael M. Swift. "**SymDrive**: testing drivers without devices." Presented as part of the 10th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 12). 2012.
+2. Renzelmann, Matthew J., Asim Kadav, and Michael M. Swift. "**SymDrive**: testing drivers without devices." Presented as part of the 10th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 12). 2012. [paper](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-4.pdf)
 	- The system uses symbolic execution to remove the need for hardware
 
-3. Costin, Andrei, Apostolis Zarras, and Aurélien Francillon. "Automated dynamic firmware analysis at scale: a case study on embedded web interfaces." Proceedings of the 11th ACM on Asia Conference on Computer and Communications Security. 2016.
+3. Costin, Andrei, Apostolis Zarras, and Aurélien Francillon. "Automated dynamic firmware analysis at scale: a case study on embedded web interfaces." Proceedings of the 11th ACM on Asia Conference on Computer and Communications Security. 2016. [paper](https://dl.acm.org/doi/pdf/10.1145/2897845.2897900)
 
-4. Zheng, Yaowen, et al. "**FIRM-AFL**: high-throughput greybox fuzzing of iot firmware via augmented process emulation." 28th {USENIX} Security Symposium ({USENIX} Security 19). 2019.
+4. Zheng, Yaowen, et al. "**FIRM-AFL**: high-throughput greybox fuzzing of iot firmware via augmented process emulation." 28th {USENIX} Security Symposium ({USENIX} Security 19). 2019. [paper](https://www.usenix.org/system/files/sec19-zheng_0.pdf)
 	- Combines user-mode emulation and system-mode emulation to fuzz the firmware. Enter the user-mode (host machine kernel) when encountering predefined fuzzing points
 	- Based on the Firmadyne to emulate the firmware and AFL to fuzz
 
-5. Song, Dokyung, et al. "**Periscope**: An effective probing and fuzzing framework for the hardware-os boundary." NDSS. 2019.
+5. Song, Dokyung, et al. "**Periscope**: An effective probing and fuzzing framework for the hardware-os boundary." NDSS. 2019. [paper](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04A-1_Song_paper.pdf)
 	- Passively monitor and log traffic between device drivers and their corresponding hardware, or mutate the data stream on-the-fly using a fuzzing component, PERIFUZZ, thus mimicking an active adversarial attack.
 
 ## Emulate non-Linux-based (bare-metal) IoT device
-1. Feng, Bo, Alejandro Mera, and Long Lu. "**P2IM**: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling." Proceedings of the 29th USENIX Security Symposium. 2020.
+1. Feng, Bo, Alejandro Mera, and Long Lu. "**P2IM**: Scalable and Hardware-independent Firmware Testing via Automatic Peripheral Interface Modeling." Proceedings of the 29th USENIX Security Symposium. 2020. [paper](https://www.usenix.org/system/files/sec20-feng.pdf)
 	- Automatically models the I/O behaviors of a wide range of peripherals while treating the peripherals themselves as black boxes
 	- To fuzz the firmware (not for fuzzing exclusively)
 	- Not specific to the ARM architecture (they only do it on ARM???)
 	- Other types of dynamic firmware analysis that do not require fully accurate output from firmware can use P2IM
 
-2. Gustafson, Eric, et al. "Toward the analysis of embedded firmware through automated re-hosting." 22nd International Symposium on Research in Attacks, Intrusions and Defenses ({RAID} 2019). 2019. (**PRETENDER**) 
+2. Gustafson, Eric, et al. "Toward the analysis of embedded firmware through automated re-hosting." 22nd International Symposium on Research in Attacks, Intrusions and Defenses ({RAID} 2019). 2019. (**PRETENDER**) [paper](https://www.usenix.org/system/files/raid2019-gustafson.pdf)
 
-3. Clements, Abraham A., et al. "**HALucinator**: Firmware Re-hosting Through Abstraction Layer Emulation." 29th USENIX Security Symposium (USENIX Sec). 2020.
+3. Clements, Abraham A., et al. "**HALucinator**: Firmware Re-hosting Through Abstraction Layer Emulation." 29th USENIX Security Symposium (USENIX Sec). 2020. [paper](https://www.usenix.org/system/files/sec20-clements.pdf)
 
 ## Emulate Network/Device
-1. Bagula, B. A., and Zenville Erasmus. "Iot emulation with **cooja**." ICTP-IoT workshop. 2015.
+1. Bagula, B. A., and Zenville Erasmus. "Iot emulation with **cooja**." ICTP-IoT workshop. 2015. [paper](http://wireless.ictp.it/school_2015/presentations/firstweek/ICTP-Cooja-Presentation-version0.pdf)
 	- Only-targeted the Contiki OS - Contiki is an operating system for networked, memory-constrained systems with a focus on low-power wireless Internet of Things devices (e.g. Z1 mote https://github.com/Zolertia/Resources/wiki/The-Z1-mote)
 	- Have an MCU inside
 
-2. Brady, Shane, et al. "Towards an emulated IoT test environment for anomaly detection using NEMU." 2017 Global Internet of Things Summit (GIoTS). IEEE, 2017.
+2. Brady, Shane, et al. "Towards an emulated IoT test environment for anomaly detection using NEMU." 2017 Global Internet of Things Summit (GIoTS). IEEE, 2017. [paper](https://researchrepository.ucd.ie/bitstream/10197/9051/1/brady-giots2017.pdf)
 	- This is to emulate the network IoT environment (a testbed of inter-connected, emulated Raspberry Pi devices)
 	- NEMU - realistic virtual dynamic networks
 	- QEMU - used to emulate the IoT devices (run the Pi’s OS in QEMU)
