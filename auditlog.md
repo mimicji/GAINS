@@ -61,6 +61,8 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - SLEUTH: Real-time attack scenario reconstruction from COTS audit data. M. N. Hossain, et al. Security'2017 [paper](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-hossain.pdf)
 - Towards a timely causality analysis for enterprise security. Y. Liu, et al. NDSS'2018 [paper](https://www.princeton.edu/~pmittal/publications/priotracker-ndss18)
 - LPROV: Practical Library-aware Provenance Tracing. F. Wang, et al. ACSAC'2018 [paper](https://yonghwi-kwon.github.io/data/lprov_acsac18.pdf)
+- This is Why We Can't Cache Nice Things: Lightning-Fast Threat Hunting using Suspicion-Based Hierarchical Storage. W. U. Hassan, et al. ACSAC'2020 [paper](https://adambates.org/documents/Hassan_Acsac20.pdf)
+
 
 #### Attack Detection
 - Detecting intrusions using system calls: Alternative data models. C. Warrender, et al. SP'1999 [paper](http://wenke.gtisc.gatech.edu/ids-readings/system_call_models.pdf)
@@ -79,7 +81,8 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Nodoze: Combatting threat alert fatigue with automated provenance triage. W. U. Hassan, et al. NDSS'2019 [paper](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03B-1-3_UlHassan_paper.pdf)
 - UNICORN: Runtime Provenance-Based Detector for Advanced Persistent Threats. Han, Xueyuan, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24046-paper.pdf)
 - You are what you do: Hunting stealthy malware via data provenance analysis. Wang, Qi, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24167-paper.pdf)
-- Tactical Provenance Analysis for Endpoint Detection and Response Systems. W. U. Hassan, et al. SP'2020 [paper](https://www.computer.org/csdl/proceedings-article/sp/2020/349700b711/1j2LguGqIIo)
+- Tactical Provenance Analysis for Endpoint Detection and Response Systems. W. U. Hassan, et al. SP'2020 [paper](https://adambates.org/documents/Hassan_Oakland20.pdf)
+- ATLAS: A Sequence-based Learning Approach for Attack Investigation. A. Alsaheel, et al. Security'2021 [paper](https://www.usenix.org/system/files/sec21summer_alsaheel.pdf)
 
 ## Limitations
 #### Space Overhead
@@ -88,8 +91,9 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Protracer: Towards practical provenance tracing by alternating between logging and tainting. S. Ma, X. Zhang, and D. Xu. NDSS 2016 [paper](https://friends.cs.purdue.edu/pubs/NDSS16.pdf)
 - Towards scalable cluster auditing through grammatical inference over provenance graphs. W. U. Hassan, et al. NDSS'2018 [paper](https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_07B-1_Hassan_paper.pdf)
 - Dependence-preserving data compaction for scalable forensic analysis. M. N. Hossain, et al. Security'2018 [paper](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-hossain.pdfs)
-- NodeMerge: Template Based Efficient Data Reduction For Big-Data Causality Analysis. Y. Tang, et al. CCS' [paper](https://kangkookjee.github.io/publications/nodemerge-ccs2018.pdf)
+- NodeMerge: Template Based Efficient Data Reduction For Big-Data Causality Analysis. Y. Tang, et al. CCS'2018 [paper](https://kangkookjee.github.io/publications/nodemerge-ccs2018.pdf)
 - APTrace: A Responsive System for Agile Enterprise Level Causality Analysis. Gui, et, al. ICDE'2020 [paper](https://ieeexplore.ieee.org/document/9101446/)
+- On the Forensic Validity of Approximated Audit Logs. N. Michael, et al. ACSAC'2020. [paper](https://adambates.org/documents/Michael_Acsac20.pdf)
 
 #### Dependency Explosion
 - Forensic analysis of file system intrusions using improved backtracking, S. Sitaraman and S. Venkatesan. IWIA'2005 [paper](https://dl.acm.org/doi/10.1109/IWIA.2005.9)
@@ -125,8 +129,3 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Practical and robust secure logging from fault-tolerant sequential aggregate signatures. G. Hartung, et al. ProvSec'2017 [paper](https://eprint.iacr.org/2017/949.pdf)
 - Custos: Practical tamper-evident auditing of operating systems using trusted execution. Paccagnella Riccardo, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24065-paper.pdf)
 - Logging to the Danger Zone: Race Condition Attacks and Defenses on System Audit Frameworks. Paccagnella Riccardo, et al. CCS'2020 [paper](https://www.kevliao.com/publications/kennyloggings-ccs2020.pdf)
-
-## Not Released Yet (19/10/2020)
-- Workflow Integration Alleviates Identity and Access Management in Serverless Computing. Arnav Sankaran, et al. ACSAC'2020
-- This is Why We Can't Cache Nice Things: Lightning-Fast Threat Hunting using Suspicion-Based Hierarchical Storage Wajih Ul Hassan, et al. ACSAC'2020
-- On the Forensic Validity of Approximated Audit Logs. Noor Michael, et al. ACSAC'2020
