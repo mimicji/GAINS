@@ -11,6 +11,7 @@
 	- [Dependency Explosion](#dependency-explosion)
 - [Query](#query)
 - [Integrity](#integrity)
+- [CTI](#cti)
 
 ## Survey
 - Threat Detection and Investigation with System-level Provenance Graphs: A Survey. Zhenyuan, et al. arxiv'2020 [paper](https://arxiv.org/pdf/2006.01722.pdf)
@@ -117,7 +118,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Threat intelligence computing. X. Shu, et al. CCS'2018 [paper](https://dl.acm.org/doi/pdf/10.1145/3243734.3243829)
 - Runtime Analysis of Whole-System Provenance. T. Pasquier, et al. CCS'2018 [paper](https://arxiv.org/pdf/1808.06049.pdf)
 - Graalf: Supporting graphical analysis of audit logs for forensics. O. Setayeshfar, et al. arXiv'2019 [paper](https://arxiv.org/pdf/1909.00902.pdf)
-- Poirot: Aligning attack behavior with kernel audit records for cyber threat hunting. S. M Milajerdi. CCS'2019 [paper](https://smomen2.people.uic.edu/publications/POIROT.pdf)
+- Poirot: Aligning attack behavior with kernel audit records for cyber threat hunting. S. M Milajerdi, et al. CCS'2019 [paper](https://smomen2.people.uic.edu/publications/POIROT.pdf)
 
 ## Integrity
 - Forward integrity for secure audit logs. M. Bellare and B. Yee. Tech. Rep. 1997 [paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.28.7970)
@@ -129,3 +130,8 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Practical and robust secure logging from fault-tolerant sequential aggregate signatures. G. Hartung, et al. ProvSec'2017 [paper](https://eprint.iacr.org/2017/949.pdf)
 - Custos: Practical tamper-evident auditing of operating systems using trusted execution. Paccagnella Riccardo, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24065-paper.pdf)
 - Logging to the Danger Zone: Race Condition Attacks and Defenses on System Audit Frameworks. Paccagnella Riccardo, et al. CCS'2020 [paper](https://www.kevliao.com/publications/kennyloggings-ccs2020.pdf)
+
+## CTI
+- Poirot: Aligning attack behavior with kernel audit records for cyber threat hunting. S. M Milajerdi, et al. CCS'2019 [paper](https://smomen2.people.uic.edu/publications/POIROT.pdf)
+- Cyber Threat Intelligence Modeling Based on Heterogeneous Graph Convolutional Network. Jun Zhao, et al. RAID'2020 [paper](https://seit.egr.msu.edu/paper/raid20_CTI.pdf)
+- Enabling Efficient Cyber Threat Hunting With Cyber Threat Intelligence. Peng Gao, et al. arXiv'2020 [paper](https://arxiv.org/pdf/2010.13637.pdf)
