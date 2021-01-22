@@ -84,6 +84,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - You are what you do: Hunting stealthy malware via data provenance analysis. Wang, Qi, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24167-paper.pdf)
 - Tactical Provenance Analysis for Endpoint Detection and Response Systems. W. U. Hassan, et al. SP'2020 [paper](https://adambates.org/documents/Hassan_Oakland20.pdf)
 - ATLAS: A Sequence-based Learning Approach for Attack Investigation. A. Alsaheel, et al. Security'2021 [paper](https://www.usenix.org/system/files/sec21summer_alsaheel.pdf)
+- SIGL: Securing Software Installations Through Deep Graph Learning. Han Xueyuan, et al. Security'2021 [paper](https://arxiv.org/pdf/2008.11533.pdf)
 
 ## Limitations
 #### Space Overhead
