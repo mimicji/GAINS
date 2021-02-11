@@ -111,8 +111,10 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Enabling refinable cross-host attack investigation with efficient data flow tagging and tracking. Y. Ji, et al. Security'2018 [paper](https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-ji.pdf)
 - MCI: Modeling-based causality inference in audit logging for attack investigation. Y. Kwon, et al. NDSS'2018 [paper](https://weihang-wang.github.io/papers/mci_ndss18.pdf)
 - Propatrol: Attack investigation via extracted high-level tasks. S. M Milajerdi, et al. Information Systems Security 2018 [paper](https://arxiv.org/pdf/1810.05711.pdf)
+- UISCOPE: Accurate, Instrumentation-free, and Visible Attack Investigation for GUI Applications. Runqing Yang, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24329-paper.pdf)
 - Omega-Log: High-fidelity attack investigation via transparent multi-layer log analysis. Hassan, Wajih Ul, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24270-paper.pdf)
 - Combating Dependence Explosion in Forensic Analysis Using Alternative Tag Propagation Semantics. M. N. Hossain, et al. SP'2020 [paper](http://seclab.cs.sunysb.edu/seclab/pubs/morse20.pdf)
+- ALchemist: Fusing Application and Audit Logs for Precise Attack Provenance without Instrumentation. Le Yu, et al. NDSS'2021 [paper](https://www.ndss-symposium.org/wp-content/uploads/2021-445-paper.pdf)
 
 ## Query
 - Behavior query discovery in system-generated temporal graphs. B. Zong, et al. VLDB'2015 [paper](http://www.vldb.org/pvldb/vol9/p240-zong.pdf)
