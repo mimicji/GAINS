@@ -65,7 +65,6 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 - Towards a timely causality analysis for enterprise security. Y. Liu, et al. NDSS'2018 [paper](https://www.princeton.edu/~pmittal/publications/priotracker-ndss18)
 - LPROV: Practical Library-aware Provenance Tracing. F. Wang, et al. ACSAC'2018 [paper](https://yonghwi-kwon.github.io/data/lprov_acsac18.pdf)
 - This is Why We Can't Cache Nice Things: Lightning-Fast Threat Hunting using Suspicion-Based Hierarchical Storage. W. U. Hassan, et al. ACSAC'2020 [paper](https://adambates.org/documents/Hassan_Acsac20.pdf)
-
 - WATSON: Abstracting Behaviors from Audit Logs via Aggregation of Contextual Semantics. Jun Z, et al. NDSS'2020 [paper](https://www.ndss-symposium.org/wp-content/uploads/2021-549-paper.pdf)
 
 
