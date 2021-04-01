@@ -75,7 +75,7 @@ type=SYSCALL msg=audit(16/05/2019 16:18:30.752:49036555) : arch=x86_64 syscall=e
 #### Attack Detection
 - Detecting intrusions using system calls: Alternative data models. C. Warrender, et al. SP'1999 [paper](http://wenke.gtisc.gatech.edu/ids-readings/system_call_models.pdf)
 - Provenance-Aware Tracing of Worm Break-in and Contaminations: A Process Coloring Approach. X. Jiang, et al. ICDCS'2006 [paper](https://www.cs.purdue.edu/homes/dxu/pubs/ICDCS06.pdf)
-- On the learning of system call attributes for host-based anomaly detection. G. Tandon and P. K. Chan. IJCAI'2006 [paper](https://pdfs.semanticscholar.org/1f05/969f6e72aad5e15e13df8019351085cc9683.pdf)
+- On the learning of system call attributes for host-based anomaly detection. G. Tandon and P. K. Chan. IJAIT'2006 [paper](https://pdfs.semanticscholar.org/1f05/969f6e72aad5e15e13df8019351085cc9683.pdf)
 - Detecting insider threats in a real corporate database of computer usage activity. E. Ted, et al. KDD'2013 [paper](https://dl.acm.org/doi/pdf/10.1145/2487575.2488213)
 - Malicious behavior detection using Windows audit logs. K. Berlin, et al. AISec'2015 [paper](https://arxiv.org/pdf/1506.04200.pdf)
 - Detection of early-stage enterprise infection by mining large-scale log data. A. Oprea, et al. SDN'2015 [paper](https://arxiv.org/pdf/1411.5005.pdf)
