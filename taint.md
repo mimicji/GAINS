@@ -38,10 +38,14 @@
 ## Static Taint Analysis
 - Wang, Xinran, et al. "[Still: Exploit code detection via static taint and initialization analyses.](http://www.cse.psu.edu/~sxz16/papers/still.pdf)" _2008 Annual Computer Security Applications Conference (ACSAC)_. IEEE, 2008.
 - Biondi, Philippe, et al. "[BinCAT: purrfecting binary static analysis.](https://www.sstic.org/media/SSTIC2017/SSTIC-actes/bincat_purrfecting_binary_static_analysis/SSTIC2017-Article-bincat_purrfecting_binary_static_analysis-biondi_rigo_zennou_mehrenberger.pdf)" _Symposium sur la sécurité des technologies de l’information et des communications_. 2017.
+- Taint Summary
+	- Changming Liu, et al. "[KUBO: Precise and Scalable Detection of User-triggerable Undefined Behavior Bugs in OS Kernel](https://yaohway.github.io/kubo.pdf)" _NDSS_. 2021
+	- Hang Zhang, et al. "[Statically Discovering High-Order Taint Style Vulnerabilities in OS Kernels.](https://www.cs.ucr.edu/~zhiyunq/pub/ccs21_static_high_order.pdf)" _CCS_. 2021
 ## Taint Policy
 - Xu, Wei, Sandeep Bhatkar, and Ramachandran Sekar. "[Taint-Enhanced Policy Enforcement: A Practical Approach to Defeat a Wide Range of Attacks.](https://www.usenix.org/event/sec06/tech/full_papers/xu/xu_html/)" _USENIX Security Symposium_. 2006.
 ## Taint Rule
 - `TaintInduce` Chua, Zheng Leong, et al. "[One Engine To Serve'em All: Inferring Taint Rules Without Architectural Semantics.](https://pdfs.semanticscholar.org/2f04/e6bc5bbf2df6d0df15593f2e648681591173.pdf)" _NDSS_. 2019.
+
 ## Tools
 - `Pin` [Dytan](https://github.com/behzad-a/Dytan): Dytan Taint Analysis Framework on Linux 64-bit [`Paper`](https://dl.acm.org/doi/pdf/10.1145/1273463.1273490)
 - `Pin` [libdft](https://github.com/vusec/vuzzer/tree/master/support/libdft): Practical Dynamic Data Flow Tracking. [libdft64](https://github.com/AngoraFuzzer/libdft64)
